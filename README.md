@@ -9,7 +9,7 @@ Now, you'll need a client connection using [socket.io](https://socket.io/docs/cl
 For example:
 
 ```javascript
-const socket = io("http://localhost:8080")
+const socket = io("https://mocksock.herokuapp.com") //http://localhost:8080
 socket.on("templateList", console.log)
 socket.on("deviceConnected", updateData)
 ```
@@ -46,4 +46,4 @@ socket.emit("template", options)
 
 ie. Broadcast data every 20 seconds for 10 minutes.
 
-I've included chance.js because I like it, faker.js is also an option, or this could be extended to support custom templates via an http server and a POST request or similar socket communication.
+I've included [chance.js](https://chancejs.com/index.html) because I like it, [faker.js](https://github.com/marak/Faker.js/) is also an option, or this could be extended to support custom templates via an http server and a POST request or similar socket communication.
