@@ -1,7 +1,7 @@
 {
   "name": "mocksock",
   "version": "1.0.0",
-  "description": "Data generator via sockets.",
+  "description": "Data generation via sockets.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -9,7 +9,7 @@
   },
   "keywords": [
     "socket.io",
-    "chance.ks"
+    "chance.js"
   ],
   "author": "Luc Iyer <luciyer@gmail.com>",
   "license": "ISC",
