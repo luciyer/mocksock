@@ -1,0 +1,20 @@
+{
+  "name": "mocksock",
+  "version": "1.0.0",
+  "description": "Data generator via sockets.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "socket.io",
+    "chance.ks"
+  ],
+  "author": "Luc Iyer <luciyer@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chance": "^1.1.7",
+    "nanoid": "^3.1.15",
+    "socket.io": "^2.3.0"
+  }
+}
