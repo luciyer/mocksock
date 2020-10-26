@@ -33,7 +33,7 @@ io.on("connection", socket => {
 
   socket.emit("templateList", { templates: Object.keys(templates) })
 
-  socket.on("template", (options) => {
+  socket.on("openStream", (options) => {
 
     const roomId = nanoid(8)
     const { frequency, template } = options
